@@ -1,0 +1,31 @@
+#nave {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+}
+
+#lis {
+  margin-right: 10px;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+}
+
+#lis a {
+  color: #a82c48;
+}
+
+#lastbtn {
+  border: 1px solid transparent;
+  background-color: #a82c48;
+  color: white !important;
+  padding: 5px 15px;
+  max-width: max-content;
+  transition: 0.5s ease-in-out;
+}
+
+#lastbtn:hover {
+  color: #a82c48 !important;
+  background-color: white;
+  border: 1px solid #a82c48;
+}

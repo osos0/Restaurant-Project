@@ -1,0 +1,305 @@
+:root {
+  --h1-color: #a82c48;
+  --p-color: rgb(43, 43, 43);
+}
+
+/* section 1 Good food */
+.header {
+  background-image: url("../../imges/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header h1 {
+  color: rgb(116, 18, 41);
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.header p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.header button {
+  background-color: var(--h1-color);
+  color: white;
+  padding: 10px 30px;
+  margin: 10px;
+  border: 1px solid var(--h1-color);
+  font-size: larger;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header .button2 {
+  background-color: white;
+  color: var(--h1-color);
+  border: 2px solid transparent;
+}
+
+.header .button2:hover {
+  border: 2px solid var(--h1-color);
+  transition: 0.5s ease-in-out;
+}
+
+/* section 2 nums */
+.section2 {
+  background-color: var(--h1-color);
+  padding: 35px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.section2 h1,
+p {
+  color: white;
+  padding: auto;
+}
+
+/* section 3 We pride */
+
+.Wepride {
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.Wepride h2 {
+  color: var(--h1-color);
+  font-size: 45px;
+  line-height: 70px;
+}
+
+.Wepride p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.Wepride button {
+  background-color: var(--h1-color);
+  padding: 10px 30px;
+  margin: 10px;
+  border: 1px solid var(--h1-color);
+  font-size: larger;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Wepride button a {
+  text-decoration: none;
+  color: white;
+}
+
+.Wepride img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* section 4 We make */
+
+.Wemake {
+  margin-top: 60px;
+  max-width: 100%;
+  text-align: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.Wemake img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.Wemake p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.Wemake h2 {
+  color: var(--h1-color);
+  font-size: 45px;
+  line-height: 70px;
+}
+
+.Wemake button {
+  background-color: var(--h1-color);
+  padding: 10px 30px;
+  margin: 10px;
+  border: 1px solid var(--h1-color);
+  font-size: larger;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Wemake button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* section 5 --stomick-- */
+
+.stomach {
+  background-image: url("../../imges/122.jpg");
+  /* background-size: 100% 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.stomach h1 {
+  color: var(--h1-color);
+}
+
+.stomach p {
+  color: var(--p-color);
+  margin: 30px auto 60px auto;
+}
+
+.stomach a {
+  color: black;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.stomach a:hover {
+  color: var(--h1-color);
+  transition: 0s;
+}
+
+/* section 6 Explore Our Foods */
+
+.ExploreOurFoods {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.ExploreOurFoods h2 {
+  margin: 20px;
+}
+
+.ExploreOurFoods p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.slide_Testimonials {
+  background-color: var(--h1-color);
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slide_Testimonials p {
+  font-size: 45px;
+  padding: 50px 0 20px;
+}
+
+.slideCon {
+  background-color: white;
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.soli {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.carousel-item p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.carousel-item h3 {
+  color: var(--h1-color);
+  padding-bottom: 30px;
+}
+
+/* section    */
+.Frequently h2 {
+  color: var(--h1-color);
+  font-size: 45px;
+  margin: 60px;
+}
+
+.Frequently p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+/* section    */
+
+.Hurry_up h2 {
+  color: var(--h1-color);
+  font-size: 45px;
+  margin: 60px;
+}
+
+.Hurry_up p {
+  color: var(--p-color);
+  font-size: 22px;
+}
+
+.Hurry_up button {
+  background-color: var(--h1-color);
+  color: white;
+  padding: 10px 30px;
+  /* margin: 10px; */
+  border: 1px solid var(--h1-color);
+  font-size: larger;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Hurry_up input {
+  margin-bottom: 20px;
+  height: 55px;
+}
+
+/* the last section */
+
+.last_footer {
+  margin-top: 30px;
+  background-color: var(--h1-color);
+  color: white;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.linko,
+.social {
+}
+.linko a,
+.social a {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.last_footer p {
+  margin: 40px;
+  color: white;
+}
